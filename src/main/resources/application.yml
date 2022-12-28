@@ -16,7 +16,8 @@ angels:
   secret-keeper-email: xxx.xxxx@xxx.com
   secret-keeper-name: gamekepername
   secret-keeper-mail-subject: '[Famille xxxxx] Les anges ont été tirés'
-  send-mail-only-to: xxx.xxxx@xxx.com
+  #  To send to only one person (for tests)
+  #  send-mail-only-to: xxx.xxxx@xxx.com
   games:
     - name:  adults
       mail-subject: '[Famille xxxxxxx] Ton protégé a été choisi'
