@@ -1,0 +1,35 @@
+spring:
+  mail:
+    host: smtp.xxxxxxx.com
+    port: 465
+    username: xxxx@xxx.com
+    password: 'xxxxxxxxxxxxxxxxx+'
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.ssl.enable: true
+#        mail.debug: true
+
+
+angels:
+  from: xxx.xxxx@xxx.com
+  secret-keeper-email: xxx.xxxx@xxx.com
+  secret-keeper-name: gamekepername
+  secret-keeper-mail-subject: '[Famille xxxxx] Les anges ont été tirés'
+  send-mail-only-to: xxx.xxxx@xxx.com
+  games:
+    - name:  adults
+      mail-subject: '[Famille xxxxxxx] Ton protégé a été choisi'
+      players:
+        - name: Maman
+          email: mam@test.com
+          familyId: 0
+        - name: Vero
+          email: vero@test.com
+          familyId: 1
+        - name: Eric
+          email: eric@test.com
+          familyId: 2
+        - name: Steph
+          email: steph@test.com
+          familyId: 2
