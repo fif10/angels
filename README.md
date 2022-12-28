@@ -4,7 +4,7 @@
 
 
 
-##Context
+## Context
 In my family, we have every year, a gift :gift: (homemade) to offer to one random other member, and this has to be secret. 
 We call this '**les anges**' (angels in English)
 In order to automate this choice, the send of the choice, and avoid the gift to  a partner (husband/wife), this basic application was created
